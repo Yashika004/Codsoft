@@ -1,0 +1,3 @@
+create database to_do_list;
+
+create table task_record (t_id int primary key, task varchar(255), status varchar(255));

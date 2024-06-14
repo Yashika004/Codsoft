@@ -1,0 +1,5 @@
+ create database contact_book;
+
+ use contact_book;
+
+ create table contact_details(c_id int primary key, name varchar(255), phone varchar(255), email varchar(255), address varchar(255));
